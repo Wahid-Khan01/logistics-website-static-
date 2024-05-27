@@ -34,7 +34,7 @@
     .contact-card {
       background-color: #fff;
       border-radius: 8px;
-      box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 14px 18px rgba(0, 0, 0, 0.3);
       padding: 20px;
       max-width: 400px;
       width: 100%;
@@ -74,49 +74,48 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid" style="background-color: rgba(253, 232, 232, 0.795);">
-      <a class="navbar-brand" href="/" style="margin-right: 0px;">
-        <img src='images/FREIGHT_LOGO.png' alt="Logo" width="100" height="60" class="logos">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarScroll">
-        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-          <li class="nav-item">
-            <a class="nav-link active" style="color: white;" onmouseover="this.style.color='red'" onmouseout="this.style.color='white'" aria-current="page" href="/about.html">About Us</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" style="color: white;" onmouseover="this.style.color='red'" onmouseout="this.style.color='white'" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Services
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-              <li class="dropdown-submenu">
-                <a class="dropdown-item dropdown-toggle" href="#" onmouseover="this.style.color='red'" onmouseout="this.style.color='black'">Sea Freight</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="/fcl.html" onmouseover="this.style.color='red'" onmouseout="this.style.color='black'">FCL</a></li>
-                  <li><a class="dropdown-item" href="/lcl.html" onmouseover="this.style.color='red'" onmouseout="this.style.color='black'">LCL</a></li>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding-top: 0px; padding-bottom: 0px;">
+        <div class="container-fluid " style="background-color: rgba(253, 232, 232, 0.795);">
+          <a class="navbar-brand" href="/" style="margin-right: 0px;">
+            <img src='images/FREIGHT_LOGO.png' alt="Logo" width="100" height="60" class="logos" >
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item" >
+                <a class="nav-link active" style="color: #000;" onmouseover="this.style.color='red'" onmouseout="this.style.color='white'" aria-current="page" href="/about.html">About Us</a>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" style="color: #000;" onmouseover="this.style.color='red'" onmouseout="this.style.color='white'" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                    <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle"  href="#" onmouseover="this.style.color='red'" onmouseout="this.style.color='black'">Sea Freight</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/fcl.html" onmouseover="this.style.color='red'" onmouseout="this.style.color='black'">FCL</a></li>
+                            <li><a class="dropdown-item" href="/lcl.html" onmouseover="this.style.color='red'" onmouseout="this.style.color='black'" >LCL</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="dropdown-item" href="/airfreight.html" onmouseover="this.style.color='red'" onmouseout="this.style.color='black'">Air Freight</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="/customclearance.html" onmouseover="this.style.color='red'" onmouseout="this.style.color='black'">Custom Clearance</a></li>
                 </ul>
               </li>
-              <li><a class="dropdown-item" href="/airfreight.html" onmouseover="this.style.color='red'" onmouseout="this.style.color='black'">Air Freight</a></li>
-              <li>
-                <hr class="dropdown-divider">
+              <li class="nav-item">
+                <a class="nav-link" href="/contact.html" style="color: #000;" onmouseover="this.style.color='red'" onmouseout="this.style.color='white'">Contact Us</a>
               </li>
-              <li><a class="dropdown-item" href="/customclearance.html" onmouseover="this.style.color='red'" onmouseout="this.style.color='black'">Custom Clearance</a></li>
+              <li class="nav-item">
+                <a class="nav-link" href="/industries.html" style="color: #000;" onmouseover="this.style.color='red'" onmouseout="this.style.color='white'">Industries - We Serve</a>
+              </li>
+              
             </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/contact.html" style="color: white;" onmouseover="this.style.color='red'" onmouseout="this.style.color='white'">Contact Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/industries.html" style="color: white;" onmouseover="this.style.color='red'" onmouseout="this.style.color='white'">Industries - We Serve</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
+          </div>
+        </div>
+      </nav>
   <div class="content">
     <div class="contact-card">
       <h2 onmouseover="this.style.color='red'" onmouseout="this.style.color='#000'">Freight Sequence</h2>
